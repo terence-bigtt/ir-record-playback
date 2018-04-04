@@ -1,7 +1,7 @@
 import numpy as np
 import pigpio
 
-class IrRecord(object):
+class IrRecorder(object):
     def __init__(self, gpio, pi, tol= .1,verbose = False):
     """"
     gpio: pin attached to IR sensor
